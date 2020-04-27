@@ -1,0 +1,222 @@
+body{
+ background: url(https://img.freepik.com/free-photo/green-desk-with-stationery-top-view-copypace_144627-24862.jpg?size=626&ext=jpg);
+  margin-left:5%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-blend-mode:lighten;
+  overflow-x: hidden;overflow-y: visible;
+}
+.searchbar{
+  align: center;
+  margin-left: 25%;
+}
+.searching{
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+  width: 600px;
+  color: rgb(0,0,0);
+  border-radius: 10px;
+  background-color:#ffffff;
+  border: 2px solid #0D2142 ;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 6px;
+}
+.answer{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Fredoka One', cursive;
+  height: 50px;
+  width: 150px;
+  color:#ffffff;
+  border-radius: 10px;
+  background-color:#1165DC;
+  border: 1px solid #1165DC;
+  letter-spacing: 3px;
+}
+.logo{
+
+  margin-left: 43%;
+}
+.lime{
+  text-align: center;
+  letter-spacing: 3px;
+  margin-left: 9%;
+}
+p
+{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  color: #1E3811;
+  font-size: 21px;
+  padding-top: 5%
+  padding-left:70%;
+  padding-right:70%;
+  width: 65%;
+  margin-left: 45px;
+  margin-right: 20px;
+
+}
+h2{
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+h1{
+ font-family: 'Fredoka One', cursive;
+  font-size: 60px;
+  text-align: center;
+  word-spacing: 8px;
+  margin-top: 60px;
+  letter-spacing: 3px;
+}
+form.emailform{
+  font-family: 'Jura', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  border: 10px solid #0D2142;
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+.fname{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 5px;
+  background-color:#ffffff;
+  border: 1px solid #0D2142;
+
+}
+.lname{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 5px;
+  background-color:#ffffff;
+  border: 1px solid #0D2142;
+}
+.phn{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 5px;
+  background-color:#ffffff;
+  border: 1px solid #0D2142;
+}
+.msgs{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  background-color:#ffffff;
+  border: 1px solid #0D2142;
+  /* margin-left: 3px; */
+  /* margin-right:3px; */
+  height: auto;
+  width: 80%;
+  margin-top:5px;
+
+}
+.mails{
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 5px;
+  background-color:#ffffff;
+  border: 1px solid #0D2142;
+}
+.signup{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  background-color:rgb(20, 233, 252);
+  border: 1px solid rgb(20, 233, 252);
+}
+
+#m{
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#f{
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#t{
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 32.43%;
+  padding: 5px;
+
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2 {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sm{
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 5px 5px ;
+  text-align: center;
+}
+.socialmedia{
+  margin-left: 42%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
